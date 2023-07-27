@@ -414,6 +414,10 @@ input:focus {
 
 @media (max-width: 1400px) {
 
+    #michalPhoto {
+        padding: 0;
+    }
+
     .rightSideMainContainer {
         margin-top: 30px !important;
         margin-bottom: 30px !important;
