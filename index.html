@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script></script>
+    <title>Web Development Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="d-flex text-center vh-100">
+        <div class="row fullWidth g-0">
+
+            <div class="col-xxl-6 leftSide">
+                <div class="leftSideMainContainer">
+
+                    <!-- TAB ITEMS SECTION -->
+
+                    <div class="menu">
+                        <ul class="nav nav-pills">
+                            <a class="navbar-brand" href="#">
+                                <button class="imgButton" onclick="home()">
+                                    <img src="./logos/msthebear_logo.svg" id="msTheBearLogo"
+                                        alt="Michal Szymczak's Logo" width="70" height="70">
+                                </button>
+                            </a>
+                            <li class="nav-item menuItems">
+                                <a href="#aboutMe" class="nav-link active" data-bs-toggle="tab">About</a>
+                            </li>
+                            <li class="nav-item menuItems">
+                                <a href="#projects" class="nav-link" data-bs-toggle="tab">Projects</a>
+                            </li>
+                            <li class="nav-item menuItems">
+                                <a href="#contact" class="nav-link" data-bs-toggle="tab">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+
+                        <!-- ABOUT ME SECTION -->
+
+                        <div class="tab-pane fade show active" id="aboutMe">
+                            <div class="row g-0 photoAboutMe">
+                                <div class="col-xxl-3">
+                                    <img src="./photos/Michal Szymczak.webp" class="img-fluid" id="michalPhoto"
+                                        alt="Michal's Headshot">
+                                </div>
+
+                                <div class="col-xxl-9">
+                                    <p id="hiMyNameIs">Hi, my name is<br>Michal 'The Bear' Szymczak</p>
+                                    <p id="aboutMeText">Self-taught, problem solver with skills in web
+                                        development and design, looking for his first professional role as a Front-end
+                                        Web
+                                        Developer/Software
+                                        Engineer. I code in HTML5, CSS3, JavaScript and I design in Photoshop,
+                                        Illustrator/Inkscape to create something great from scratch.
+                                        Throughout my learning process I've been using The Odin Project, The Web
+                                        Developer Bootcamp (by Colt Steele) and many online resources to gain more
+                                        knowledge and build my projects.<br>In my free time I slaughter countless demons
+                                        (D4 recently) where I'm basically saving the whole world (you're welcome)
+                                        and I 3D print many cool figurines.</p>
+                                </div>
+                            </div>
+
+                            <!-- COURSES SECTION -->
+
+                            <div class="row g-0 coursesContainer">
+                                <h4>COURSES</h4>
+                                <div class="coursesIconsContainer">
+                                    <img src="./logos/theOdinProject.svg" class="coursesIcons"
+                                        alt="The Odin Project logo">
+                                    <img src="./logos/udemy.svg" class="coursesIcons" alt="Udemy logo">
+                                </div>
+                            </div>
+
+                            <!-- TECHNOLOGIES SECTION -->
+
+                            <div class="row g-0 technologiesContainer">
+                                <h4>TECHNOLOGIES</h4>
+                                <div>
+                                    <img src="./logos/html5.svg" class="technologiesIcons" alt="HTML5 logo">
+                                    <img src="./logos/css3.svg" class="technologiesIcons" alt="CSS3 logo">
+                                    <img src="./logos/javascript.svg" class="technologiesIcons" alt="JavaScript logo">
+                                    <img src="./logos/bootstrap.svg" class="technologiesIcons" alt="Bootstrap logo">
+                                    <img src="./logos/sass.svg" class="technologiesIcons" alt="Sass logo">
+                                    <img src="./logos/wordPress.svg" class="technologiesIcons" alt="WordPress logo">
+                                    <img src="./logos/gitHub.svg" class="technologiesIcons" alt="GitHub logo">
+                                    <img src="./logos/csharp.svg" class="technologiesIcons" alt="C# logo">
+                                </div>
+                            </div>
+
+                            <!-- INTERESTS SECTION -->
+
+                            <div class="row g-0 interestsContainer">
+                                <h4>INTERESTS</h4>
+                                <div>
+                                    <img src="./logos/coding.svg" class="interestsIcons" alt="Coding icon">
+                                    <img src="./logos/gaming.svg" class="interestsIcons" alt="Gaming icon">
+                                    <img src="./logos/travel.svg" class="interestsIcons" alt="Travel icon">
+                                    <img src="./logos/videography.svg" class="interestsIcons" alt="Videography icon">
+                                    <img src="./logos/photography.svg" class="interestsIcons" alt="Photography icon">
+                                    <img src="./logos/3dprinting.svg" class="interestsIcons" alt="3d Printing icon">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TAB NUMBER 2 - PROJECTS -->
+
+                        <div class="tab-pane fade" id="projects">
+
+                            <div class="projectMainPhotoContainer">
+                                <a href="https://msthebear.github.io/BoopGames/" target="_blank" id="mainLink">
+                                    <img src="./projects/boopgames/main.webp" class="projectMainPhoto" id="p_main"
+                                        alt="Project's thumbnail">
+                                </a>
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <p class="projectNameText" id="p_name">BOOPGAMES</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="projectNameText"><a href="https://github.com/msTheBear/BoopGames"
+                                                target="_blank" id="p_github">GITHUB</a></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="projectNameText"><a href="https://msthebear.github.io/BoopGames/"
+                                                target="_blank" id="p_link">WEBSITE</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="projectDescription">
+                                <p id="p_description">Game database website built using RAWG's API. Users can find
+                                    games, view screenshots, check ratings, read game description and game info
+                                    (platform availability, release date, genre, developer).</p>
+                            </div>
+
+                            <div class="row projectThumbnailsContainer">
+                                <div class="col-lg-3 col-6">
+                                    <img src="./projects/boopgames/boopgames_th.webp"
+                                        class="img-fluid projectsThumbnails" id="p_mini1" alt="Project's mini thumbnail"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <img src="./projects/boopgames/screenshot_1.webp"
+                                        class="img-fluid projectsThumbnails" id="p_mini2" alt="Project's mini thumbnail"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <img src="./projects/boopgames/screenshot_2.webp"
+                                        class="img-fluid projectsThumbnails" id="p_mini3" alt="Project's mini thumbnail"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <img src="./projects/boopgames/screenshot_3.webp"
+                                        class="img-fluid projectsThumbnails" id="p_mini4" alt="Project's mini thumbnail"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MODAL -->
+
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./projects/boopgames/boopgames_th.webp" alt="" id="p_mini_modal1"
+                                            class="smallScreenshots">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./projects/boopgames/screenshot_1.webp" alt="" id="p_mini_modal2"
+                                            class="smallScreenshots">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModal3Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./projects/boopgames/screenshot_2.webp" alt="" id="p_mini_modal3"
+                                            class="smallScreenshots">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModal4Label"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./projects/boopgames/screenshot_3.webp" alt="" id="p_mini_modal4"
+                                            class="smallScreenshots">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TAB NUMBER 3 - CONTACT -->
+
+                        <div class="tab-pane fade" id="contact">
+
+                            <div class="reachOutContainer">
+                                <h6>REACH OUT TO ME</h6>
+
+                                <div class="formContainer text-center">
+                                    <form class="row g-0 needs-validation" id="contactform"
+                                        action="https://formsubmit.co/890cbc8db2154b57744911c5c99132bd" method="POST">
+
+                                        <input type="hidden" name="_captcha" value="false">
+                                        <input type="hidden" name="_subject" value="New E-mail">
+
+                                        <div class="col-md-12">
+                                            <input type="text"
+                                                class="form-control rounded-3 text-center inputBox inputBoxNameEmail"
+                                                placeholder="Name" required>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <input type="email"
+                                                class="form-control rounded-3 text-center inputBox inputBoxNameEmail"
+                                                name="email" placeholder="E-mail" required>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <textarea rows="6" cols="50" class="text-center inputBox rounded-3"
+                                                name="name" id="textArea" placeholder=" Your message"
+                                                required></textarea>
+                                        </div>
+
+                                        <button class="btn btn-primary buttonSubmit rounded-2 buttonForm" type="submit"
+                                            form="contactform">Send</button>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                            <div class="socialContainer">
+                                <a href=""><img src="./logos/social media/instagram_logo.svg" class="socialIcons"
+                                        alt="Instagram logo"></a>
+                                <a href=""><img src="./logos/social media/vimeo_logo.svg" class="socialIcons"
+                                        alt="Vimeo logo"></a>
+                                <a href=""><img src="./logos/social media/linkedIn_logo.svg" class="socialIcons"
+                                        alt="LinkedIn logo"></a>
+                                <a href=""><img src="./logos/social media/imdb_logo.svg" class="socialIcons"
+                                        alt="IMDB logo"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+
+            <div class="col-xxl-6 rightSide">
+                <div class="rightSideMainContainer">
+                    <div class="row gx-4 gy-4">
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button1"
+                                        onclick="p1Function()">
+                                        <img src="./projects/boopgames/boopgames_th.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Game Finder</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button2"
+                                        onclick="p2Function()">
+                                        <img src="./projects/msthebear/msthebear_th.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Videography Portfolio</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button3"
+                                        onclick="p3Function()">
+                                        <img src="./projects/filmnuts/filmnuts_th.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Professional Video Services</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button4"
+                                        onclick="p4Function()">
+                                        <img src="./projects/dev portfolio/screenshot_3.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Web Dev Portfolio</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button5"
+                                        onclick="p5Function()">
+                                        <img src="./projects/etchasketch/etchasketch_th.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Etch A Sketch</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button6"
+                                        onclick="p6Function()">
+                                        <img src="./projects/rockpaperscissors/rockpaperscissors_th.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Rock Paper Scissors</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button7"
+                                        onclick="p7Function()">
+                                        <img src="./projects/michalportfolio/michalportfolio_th.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Videography Portfolio</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button8"
+                                        onclick="p8Function()">
+                                        <img src="./projects/pulmonika/pulmonika_th.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Personal Website</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="projectContainer">
+
+                                <a href="#projects"><button class="btn btn-primary imgButton" id="button9"
+                                        onclick="p9Function()">
+                                        <img src="./projects/foxit/foxit_th.webp"
+                                            class="img-fluid column2ProjectThumbnail" alt="Project's thumbnail">
+                                        <div class="centered">
+                                            <div class="polygon">
+                                                <img src="./logos/polygon.svg" class="img-fluid" alt="Polygon shape">
+                                                <div class="overlayText">Unity Game</div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
