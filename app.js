@@ -206,50 +206,72 @@ function projectSwitch9() {
     document.getElementById("p_mini_modal4").src = "./projects/foxit/screenshot_3.webp";
 }
 
+function goToTop() {
+    let goToTop = document.getElementById("projects");
+    goToTop.scrollIntoView();
+}
 
 function p1Function() {
+    goToTop()
     projectSwitch1();
     projectsTab();
+
 }
 
 function p2Function() {
+    goToTop()
     projectSwitch2();
     projectsTab();
+
 }
 
 function p3Function() {
+    goToTop()
     projectSwitch3();
     projectsTab();
+
 }
 
 function p4Function() {
+    goToTop()
     projectSwitch4();
     projectsTab();
+
 }
 
 function p5Function() {
+    goToTop()
     projectSwitch5();
     projectsTab();
+
 }
 
 function p6Function() {
+    goToTop()
     projectSwitch6();
     projectsTab();
+
 }
 
 function p7Function() {
+    goToTop()
     projectSwitch7();
     projectsTab();
+
 }
 
 function p8Function() {
+    goToTop()
     projectSwitch8();
     projectsTab();
+
 }
 
 function p9Function() {
+    goToTop()
     projectSwitch9();
     projectsTab();
+
 }
 
 $("#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9").click(function () {
