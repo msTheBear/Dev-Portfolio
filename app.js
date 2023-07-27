@@ -77,13 +77,13 @@ function projectSwitch3() {
 function projectSwitch4() {
     document.getElementById("p_main").src = "./projects/dev portfolio/main.webp";
     document.getElementById("p_name").innerHTML = "WEB DEV PORTFOLIO";
-    document.getElementById("p_github").href = "";
+    document.getElementById("p_github").href = "https://github.com/msTheBear/Dev-Portfolio";
     document.getElementById("p_link").innerHTML = "WEBSITE";
-    document.getElementById("p_link").href = "";
+    document.getElementById("p_link").href = "https://msthebear.github.io/Dev-Portfolio/";
 
     document.getElementById("p_description").innerHTML = "Portfolio website to showcase web dev projects using a variety of technologies.";
 
-    document.getElementById("mainLink").href = "";
+    document.getElementById("mainLink").href = "https://msthebear.github.io/Dev-Portfolio/";
 
     document.getElementById("p_mini1").src = "./projects/dev portfolio/portfolio_th.webp";
     document.getElementById("p_mini2").src = "./projects/dev portfolio/screenshot_1.webp";
