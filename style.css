@@ -413,6 +413,20 @@ input:focus {
 
 @media (max-width: 1400px) {
 
+    .modal-header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .modal-body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .rightSideMainContainer {
+        display: none;
+    }
+
     #michalPhoto {
         padding: 0;
         margin-bottom: 10px;
@@ -449,8 +463,7 @@ input:focus {
 
 @media (max-width: 991px) {
 
-    .leftSideMainContainer,
-    .rightSideMainContainer {
+    .leftSideMainContainer {
         width: 90%;
         margin: 0 auto;
     }
@@ -461,11 +474,6 @@ input:focus {
 
     #msTheBearLogo {
         width: 200px;
-    }
-
-    .smallScreenshots {
-        width: 80%;
-        border-radius: 0 0 20px 20px;
     }
 
     #p_mini1,
