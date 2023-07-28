@@ -423,10 +423,6 @@ input:focus {
         margin: 0 auto;
     }
 
-    .rightSideMainContainer {
-        display: none;
-    }
-
     #michalPhoto {
         padding: 0;
         margin-bottom: 10px;
