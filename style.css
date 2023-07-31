@@ -4,6 +4,8 @@ html {
     font-weight: 500 !important;
     letter-spacing: 1px;
     height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .tab-content {
@@ -407,6 +409,54 @@ input:focus {
 }
 
 /* COLUMN 2 END */
+
+
+/* THANK YOU PAGE START */
+
+.thankYouSection {
+    background-color: #191919;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankYouContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #242424;
+    border-radius: 20px;
+}
+
+#checkBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #191919;
+}
+
+#buttonBackHome {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #33b291;
+    padding: 10px;
+    transition: 0.2s all ease-in-out;
+}
+
+#buttonBackHome:hover {
+    background-color: orange;
+}
+
+/* THANK YOU PAGE END */
 
 
 /* MOBILE VIEW */
