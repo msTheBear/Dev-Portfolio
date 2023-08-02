@@ -188,6 +188,7 @@ h4 {
 /* PROJECTS TAB START */
 
 h4,
+h5,
 h6,
 .projectNameText {
     font-size: 1.1rem;
@@ -287,6 +288,11 @@ a {
 /* CONTACT ME START */
 
 .reachOutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
     border-radius: 30px;
     padding: 10%;
     background-color: #191919;
@@ -304,6 +310,11 @@ a {
     color: #f4911b;
     border: none;
     border-bottom: solid 1px #f4911b;
+}
+
+.formSpacing {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 textarea:focus,
