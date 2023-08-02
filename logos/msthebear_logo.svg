@@ -9,10 +9,9 @@
    id="svg5"
    xml:space="preserve"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="msthebear_logo_clean_rect_new.svg"
+   sodipodi:docname="msthebear_logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview7"
@@ -26,23 +25,15 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.6819304"
-     inkscape:cx="102.858"
-     inkscape:cy="140.90952"
+     inkscape:cx="168.8536"
+     inkscape:cy="151.01695"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
-     id="defs2"><linearGradient
-       inkscape:collect="always"
-       id="linearGradient14240"><stop
-         style="stop-color:#eb901d;stop-opacity:1;"
-         offset="0"
-         id="stop14236" /><stop
-         style="stop-color:#49b293;stop-opacity:1;"
-         offset="0.65985793"
-         id="stop14244" /></linearGradient><style
+     id="defs2"><style
        type="text/css"
        id="style4969">
    <![CDATA[
@@ -134,15 +125,7 @@
     .fil4 {fill:#FFD744}
     .fil5 {fill:#FFE474}
    ]]>
-  </style><linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient14240"
-       id="linearGradient14242"
-       x1="-7.7486038e-07"
-       y1="26.458331"
-       x2="105.83332"
-       y2="26.458331"
-       gradientUnits="userSpaceOnUse" /></defs><g
+  </style></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><g
@@ -248,12 +231,4 @@
              style="fill:#49b293;fill-opacity:1;stroke-width:0.693706;stroke-miterlimit:0;stop-color:#000000"
              inkscape:transform-center-x="0.011446276"
              inkscape:transform-center-y="-0.51743434"
-             d="m 89.126783,34.439982 0.532191,-3.232667 -2.361289,-2.271051 3.238905,-0.492815 1.430222,-2.947499 1.469563,2.928081 3.245212,0.449399 -2.330661,2.302469 0.575427,3.225248 -2.909996,-1.505084 z" /></g></g></g><rect
-       style="fill:none;fill-opacity:1;stroke:url(#linearGradient14242);stroke-width:1.57236;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;stop-color:#000000"
-       id="rect12623"
-       width="104.26096"
-       height="51.344303"
-       x="0.78617924"
-       y="0.78617924"
-       rx="8.9671907"
-       ry="8.4635344" /></g></svg>
+             d="m 89.126783,34.439982 0.532191,-3.232667 -2.361289,-2.271051 3.238905,-0.492815 1.430222,-2.947499 1.469563,2.928081 3.245212,0.449399 -2.330661,2.302469 0.575427,3.225248 -2.909996,-1.505084 z" /></g></g></g></g></svg>

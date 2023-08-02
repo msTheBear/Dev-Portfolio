@@ -1,0 +1,560 @@
+body,
+html {
+    font-family: "Catamaran";
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.tab-content {
+    max-height: 750px;
+    overflow-y: scrollbar;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: none;
+    border-right: none;
+    border-left: none;
+}
+
+::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 50px;
+}
+
+::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: white;
+}
+
+.leftSide {
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftSideMainContainer,
+.rightSideMainContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rightSide {
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+/* MENU TAB START */
+
+#msTheBearLogo {
+    width: 150px;
+    border-radius: 5px;
+
+    --border-size: 3px;
+    --border-angle: 0turn;
+    background-image: conic-gradient(from var(--border-angle),
+            #242424,
+            #242424),
+        conic-gradient(from var(--border-angle), transparent 20%, #eb901dff, #49b293ff);
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+        cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    animation: bg-spin 5s linear infinite;
+
+    @keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+    }
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 2turn;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menuItems {
+    font-weight: 1000;
+}
+
+.nav-pills {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent !important;
+    color: #33b291 !important;
+}
+
+.nav-link:hover {
+    color: #33b291 !important;
+}
+
+/* MENU TAB END */
+
+
+/* ABOUT ME TAB START */
+
+
+h4 {
+    font-weight: 1000;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#michalPhoto {
+    padding: 0 25px 0 0;
+}
+
+#hiMyNameIs {
+    font-size: 1.6rem;
+    text-justify: inter-word;
+}
+
+#aboutMeText {
+    font-size: 1rem;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+#p_description {
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.photoAboutMe {
+    display: flex;
+    align-items: center;
+    background-color: #191919;
+    border-radius: 30px;
+    padding: 30px;
+
+}
+
+.coursesContainer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.coursesIconsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.technologiesIcons,
+.interestsIcons {
+    margin-bottom: 20px;
+}
+
+.technologiesIcons {
+    width: 140px;
+    max-width: 200px;
+}
+
+.coursesIcons {
+    width: 150px;
+}
+
+.technologiesContainer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #191919;
+    border-radius: 30px;
+}
+
+.interestsContainer {
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    margin-top: 20px !important;
+}
+
+/* ABOUT ME TAB END */
+
+
+/* PROJECTS TAB START */
+
+h4,
+h5,
+h6,
+.projectNameText {
+    font-size: 1.1rem;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    color: #f4911b;
+}
+
+.projectMainPhotoContainer {
+    background-color: #191919;
+    padding: 5% 5% 0 5%;
+    border-radius: 30px;
+}
+
+.projectMainPhoto {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#p_link,
+#p_github {
+    transition: all 0.25s ease-in-out;
+}
+
+#p_github:hover {
+    color: #33b291 !important;
+}
+
+#p_link:hover {
+    color: #33b291 !important;
+}
+
+#p_main {
+    border-radius: 30px;
+}
+
+a {
+    color: #f4911b !important;
+    text-decoration: none !important;
+}
+
+.projectDescription {
+    margin: 25px 0 25px 0;
+}
+
+.projectThumbnailsContainer {
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background-color: #191919;
+}
+
+.projectsThumbnails {
+    cursor: pointer;
+}
+
+#p_mini1,
+#p_mini2,
+#p_mini3,
+#p_mini4 {
+    border-radius: 20px;
+}
+
+/* PROJECTS TAB END */
+
+
+/* MODAL START */
+
+.btn-close {
+    filter: brightness(0) invert(1);
+}
+
+.modal {
+    --bs-modal-padding: 0 !important;
+}
+
+.modal-header {
+    background-color: #f4911bff;
+    border-bottom: none !important;
+}
+
+.modal-body,
+.modal-dialog,
+.modal-content {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.smallScreenshots {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+/* MODAL END */
+
+
+/* CONTACT ME START */
+
+.reachOutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
+    border-radius: 30px;
+    padding: 10%;
+    background-color: #191919;
+}
+
+.formContainer {
+    margin: 0 auto;
+    padding: 5%;
+    width: 100%;
+}
+
+.form-control {
+    font-weight: 1000;
+    letter-spacing: 1px;
+    color: #f4911b;
+    border: none;
+    border-bottom: solid 1px #f4911b;
+}
+
+.formSpacing {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea:focus,
+input:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: solid 1px #f4911b;
+}
+
+#textArea {
+    width: 100%;
+}
+
+.inputBox {
+    font-weight: 1000 !important;
+    letter-spacing: 1px;
+    background-color: #242424 !important;
+    margin: 20px 0 20px 0;
+    color: #f4911b !important;
+    border: none !important;
+}
+
+.inputBoxNameEmail {
+    height: 50px !important;
+}
+
+.buttonForm {
+    width: 25% !important;
+    margin: 0 auto;
+    font-weight: 1000 !important;
+    letter-spacing: 1px;
+    border: none !important;
+    background-color: #f4911b !important;
+}
+
+.buttonForm:hover {
+    background-color: #33b291 !important;
+}
+
+/* CONTACT ME END */
+
+
+/* COLUMN 2 START */
+
+.column2ProjectThumbnail {
+    border: solid 3px #f4911b;
+    border-radius: 10%;
+    width: 100%;
+}
+
+.imgButton {
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.overlayText {
+    color: white;
+    font-size: 1vw;
+    line-height: 130%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.projectContainer {
+    position: relative;
+    text-align: center;
+}
+
+.polygon {
+    transition: transform 250ms ease-in-out;
+    max-width: 150px;
+}
+
+.projectContainer:hover .polygon {
+    transition: transform 250ms ease-in-out;
+    transform: perspective(150px) rotateX(0deg) rotateY(90deg);
+    -webkit-transform: perspective(150px) rotateX(0deg) rotateY(90deg);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* COLUMN 2 END */
+
+
+/* THANK YOU PAGE START */
+
+.thankYouSection {
+    background-color: #191919;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankYouContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #242424;
+    border-radius: 20px;
+}
+
+#checkBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #191919;
+}
+
+#buttonBackHome {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #33b291;
+    padding: 10px;
+    transition: 0.2s all ease-in-out;
+}
+
+#buttonBackHome:hover {
+    background-color: orange;
+}
+
+/* THANK YOU PAGE END */
+
+
+/* MOBILE VIEW */
+
+@media (max-width: 1400px) {
+
+    #contact {
+        margin-bottom: 50px;
+    }
+
+    .modal-header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .modal-body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #michalPhoto {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    #msTheBearLogo {
+        margin-bottom: 10px;
+    }
+
+    .rightSideMainContainer {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .tab-content {
+        max-height: 100%;
+    }
+
+    .overlayText {
+        font-size: 2vw;
+    }
+
+    .formContainer {
+        margin: 0 auto;
+        padding: 5%;
+        width: 100%;
+    }
+
+    .technologiesIcons {
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .leftSideMainContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar-brand {
+        width: 100%;
+    }
+
+    #msTheBearLogo {
+        width: 200px;
+    }
+
+    #p_mini1,
+    #p_mini2 {
+        margin-bottom: 20px;
+    }
+
+}
