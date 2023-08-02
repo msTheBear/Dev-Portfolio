@@ -344,16 +344,6 @@ input:focus {
     background-color: #33b291 !important;
 }
 
-.socialContainer {
-    margin-top: 50px;
-}
-
-.socialIcons {
-    width: 50px;
-    margin: 1%;
-    margin-bottom: 50px;
-}
-
 /* CONTACT ME END */
 
 
@@ -462,6 +452,10 @@ input:focus {
 /* MOBILE VIEW */
 
 @media (max-width: 1400px) {
+
+    #contact {
+        margin-bottom: 50px;
+    }
 
     .modal-header {
         width: 90%;
