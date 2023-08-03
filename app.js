@@ -208,7 +208,7 @@ function projectSwitch9() {
 
 function goToTop() {
     let goToTop = document.getElementById("projects");
-    goToTop.scrollIntoView({ behavior: "smooth" });
+    goToTop.scrollIntoView(true);
 }
 
 function p1Function() {
