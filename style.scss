@@ -139,22 +139,24 @@ h4 {
 
 #michalPhoto {
     padding: 0 25px 0 0;
+    transition: all 500ms ease;
 }
 
 #hiMyNameIs {
     font-size: 1.6rem;
     text-justify: inter-word;
+    text-shadow: 1.5px 1.5px 2px #33b291;
 }
 
 #aboutMeText {
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
     letter-spacing: 0.5px;
 }
 
 #p_description {
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     letter-spacing: 0.5px;
 }
 
@@ -181,6 +183,7 @@ h4 {
 .technologiesIcons,
 .interestsIcons {
     margin-bottom: 20px;
+    transition: all 500ms ease;
 }
 
 .technologiesIcons {
@@ -190,6 +193,7 @@ h4 {
 
 .coursesIcons {
     width: 150px;
+    transition: all 500ms ease;
 }
 
 .technologiesContainer {
@@ -198,6 +202,10 @@ h4 {
     padding: 20px;
     background-color: #191919;
     border-radius: 30px;
+}
+
+.spaceTextIcons {
+    margin-bottom: 20px;
 }
 
 .interestsContainer {
@@ -248,6 +256,7 @@ h6,
 
 #p_main {
     border-radius: 30px;
+    transition: all 500ms ease;
 }
 
 a {
@@ -268,6 +277,7 @@ a {
 
 .projectsThumbnails {
     cursor: pointer;
+    transition: all 500ms ease;
 }
 
 #p_mini1,
@@ -321,6 +331,11 @@ a {
     border-radius: 30px;
     padding: 10%;
     background-color: #191919;
+}
+
+#mailboxIcon {
+    margin-bottom: 20px;
+    transition: all 500ms ease;
 }
 
 .formContainer {
@@ -378,6 +393,16 @@ input:focus {
 
 .buttonForm:hover {
     background-color: #33b291 !important;
+}
+
+.socialContainer {
+    margin-top: 50px;
+}
+
+.socialIcons {
+    width: 50px;
+    margin: 1%;
+    transition: all 500ms ease;
 }
 
 /* CONTACT ME END */
@@ -487,6 +512,25 @@ input:focus {
 
 /* MOBILE VIEW */
 
+@media (hover: hover) {
+
+    #michalPhoto:hover,
+    .coursesIcons:hover,
+    .interestsIcons:hover,
+    .technologiesIcons:hover,
+    #p_main:hover,
+    .projectsThumbnails:hover,
+    .socialIcons:hover,
+    #mailboxIcon:hover {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        transform: translate(0, -10px);
+    }
+
+}
+
 @media (max-width: 1400px) {
 
     #contact {
@@ -555,6 +599,10 @@ input:focus {
     #p_mini1,
     #p_mini2 {
         margin-bottom: 20px;
+    }
+
+    .overlayText {
+        font-size: 1.8vw;
     }
 
 }

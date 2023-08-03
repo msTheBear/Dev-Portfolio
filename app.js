@@ -208,7 +208,7 @@ function projectSwitch9() {
 
 function goToTop() {
     let goToTop = document.getElementById("projects");
-    goToTop.scrollIntoView();
+    goToTop.scrollIntoView({ behavior: "smooth" });
 }
 
 function p1Function() {
@@ -336,4 +336,3 @@ $("#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button
     }).fadeIn(400);
     return false;
 });
-
