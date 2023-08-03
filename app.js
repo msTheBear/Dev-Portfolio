@@ -207,7 +207,7 @@ function projectSwitch9() {
 }
 
 function goToTop() {
-    seamless.scrollIntoView(document.querySelector("#msTheBearLogo"), {
+    seamless.scrollIntoView(document.querySelector(".projectMainPhotoContainer"), {
         behavior: "smooth",
         block: "center",
         inline: "center",
