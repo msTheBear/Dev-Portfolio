@@ -397,6 +397,8 @@ input:focus {
 }
 
 .overlayText {
+  font-family: "Catamaran";
+  font-weight: 500 !important;
   color: white;
   font-size: 1vw;
   line-height: 130%;
