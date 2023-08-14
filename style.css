@@ -136,6 +136,7 @@ h4 {
 }
 
 #aboutMeText {
+  margin: 20px;
   font-size: 1rem;
   text-align: center;
   letter-spacing: 0.5px;
@@ -371,7 +372,7 @@ input:focus {
 }
 
 .socialContainer {
-  margin: 20px 0 0 0;
+  margin-top: 20px;
 }
 
 .socialIcons {
@@ -391,7 +392,6 @@ input:focus {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 25px 0 0;
 }
 
 /* CONTACT ME END */
@@ -554,6 +554,9 @@ input:focus {
   }
 }
 @media (max-width: 991px) {
+  #aboutMeText {
+    margin: 10px;
+  }
   .leftSideMainContainer {
     width: 90%;
     margin: 0 auto;
