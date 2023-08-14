@@ -327,14 +327,13 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 750px;
+    height: 750px;
     border-radius: 30px;
-    padding: 10%;
     background-color: #191919;
 }
 
 #mailboxIcon {
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     transition: all 500ms ease;
 }
 
@@ -395,8 +394,12 @@ input:focus {
     background-color: #33b291 !important;
 }
 
+.socialContainer {
+    margin: 20px 0 0 0;
+}
+
 .socialIcons {
-    width: 50px;
+    width: 35px;
     margin: 1%;
     transition: all 500ms ease;
 }
@@ -581,6 +584,10 @@ input:focus {
     .rightSideMainContainer {
         margin-top: 30px !important;
         margin-bottom: 30px !important;
+    }
+
+    .photoSocial {
+        padding: 0;
     }
 
     .tab-content {
