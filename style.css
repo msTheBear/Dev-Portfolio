@@ -125,8 +125,8 @@ h4 {
 }
 
 #michalPhoto {
-  padding: 0 25px 0 0;
   transition: all 500ms ease;
+  margin-bottom: 10px;
 }
 
 #hiMyNameIs {
@@ -371,14 +371,24 @@ input:focus {
   background-color: #33b291 !important;
 }
 
-.socialContainer {
-  margin-top: 50px;
-}
-
 .socialIcons {
   width: 50px;
   margin: 1%;
   transition: all 500ms ease;
+}
+
+.socialIcons_ {
+  width: 30px;
+  margin: 10px;
+  transition: all 500ms ease;
+}
+
+.photoSocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 25px 0 0;
 }
 
 /* CONTACT ME END */
@@ -487,6 +497,7 @@ input:focus {
   #p_main:hover,
   .projectsThumbnails:hover,
   .socialIcons:hover,
+  .socialIcons_:hover,
   #mailboxIcon:hover {
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -525,7 +536,7 @@ input:focus {
     max-height: 100%;
   }
   .overlayText {
-    font-size: 2vw;
+    font-size: 1.7vw;
   }
   .formContainer {
     margin: 0 auto;
@@ -550,8 +561,5 @@ input:focus {
   #p_mini1,
   #p_mini2 {
     margin-bottom: 20px;
-  }
-  .overlayText {
-    font-size: 1.8vw;
   }
 }/*# sourceMappingURL=style.css.map */

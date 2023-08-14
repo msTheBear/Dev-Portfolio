@@ -138,8 +138,8 @@ h4 {
 }
 
 #michalPhoto {
-    padding: 0 25px 0 0;
     transition: all 500ms ease;
+    margin-bottom: 10px;
 }
 
 #hiMyNameIs {
@@ -395,14 +395,24 @@ input:focus {
     background-color: #33b291 !important;
 }
 
-.socialContainer {
-    margin-top: 50px;
-}
-
 .socialIcons {
     width: 50px;
     margin: 1%;
     transition: all 500ms ease;
+}
+
+.socialIcons_ {
+    width: 30px;
+    margin: 10px;
+    transition: all 500ms ease;
+}
+
+.photoSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 25px 0 0;
 }
 
 /* CONTACT ME END */
@@ -523,6 +533,7 @@ input:focus {
     #p_main:hover,
     .projectsThumbnails:hover,
     .socialIcons:hover,
+    .socialIcons_:hover,
     #mailboxIcon:hover {
         -webkit-animation-duration: 1s;
         animation-duration: 1s;
@@ -577,7 +588,7 @@ input:focus {
     }
 
     .overlayText {
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
 
     .formContainer {
@@ -610,10 +621,6 @@ input:focus {
     #p_mini1,
     #p_mini2 {
         margin-bottom: 20px;
-    }
-
-    .overlayText {
-        font-size: 1.8vw;
     }
 
 }
