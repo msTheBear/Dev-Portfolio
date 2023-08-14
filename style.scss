@@ -533,6 +533,15 @@ input:focus {
 
 }
 
+@media (min-width: 1440px) {
+
+    .tab-content {
+        max-height: 820px;
+    }
+
+}
+
+
 @media (max-width: 1400px) {
 
     #contact {
