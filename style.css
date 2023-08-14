@@ -267,7 +267,8 @@ a {
 #p_mini2,
 #p_mini3,
 #p_mini4 {
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 /* PROJECTS TAB END */
