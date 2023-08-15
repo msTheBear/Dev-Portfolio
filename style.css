@@ -18,27 +18,6 @@ html {
   display: none;
 }
 
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: none;
-  border-right: none;
-  border-left: none;
-}
-
-::-webkit-scrollbar-track-piece:end {
-  background: transparent;
-  margin-bottom: 50px;
-}
-
-::-webkit-scrollbar-track-piece:start {
-  background: transparent;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 p {
   color: white;
 }
@@ -148,7 +127,7 @@ h4 {
   letter-spacing: 0.5px;
 }
 
-.photoAboutMe {
+.photoAboutMeContainer {
   display: flex;
   align-items: center;
   background-color: #191919;
@@ -169,7 +148,7 @@ h4 {
 
 .technologiesIcons,
 .interestsIcons {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   transition: all 500ms ease;
 }
 
@@ -306,7 +285,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 750px;
+  min-height: 750px;
   border-radius: 30px;
   background-color: #191919;
 }
@@ -334,15 +313,14 @@ a {
   margin-bottom: 20px;
 }
 
-textarea:focus,
-input:focus {
-  border-color: inherit;
-  box-shadow: none;
-  outline: solid 1px #f4911b;
-}
-
 #textArea {
   width: 100%;
+}
+
+#textArea:focus {
+  border-color: inherit;
+  box-shadow: none;
+  outline: solid 2px #f4911b;
 }
 
 .inputBox {
@@ -356,6 +334,12 @@ input:focus {
 
 .inputBoxNameEmail {
   height: 50px !important;
+}
+
+.inputBoxNameEmail:focus {
+  border-color: inherit !important;
+  box-shadow: none !important;
+  outline: solid 2px #f4911b !important;
 }
 
 .buttonForm {
@@ -507,9 +491,30 @@ input:focus {
     transform: translate(0, -10px);
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1921px) {
   .tab-content {
-    max-height: 820px;
+    min-height: 1080px;
+  }
+  .photoAboutMeContainer {
+    padding: 60px;
+  }
+  #aboutMeText {
+    letter-spacing: 1px;
+  }
+  .technologiesContainer {
+    padding: 60px;
+  }
+  .spaceTextIcons {
+    margin-bottom: 40px;
+  }
+  .reachOutContainer {
+    min-height: 950px;
+  }
+  .inputBoxNameEmail {
+    height: 80px !important;
+  }
+  .inputBoxNameEmail:focus {
+    border: 1px solid red;
   }
 }
 @media (max-width: 1400px) {
@@ -548,9 +553,6 @@ input:focus {
     margin: 0 auto;
     padding: 5%;
     width: 100%;
-  }
-  .technologiesIcons {
-    width: 40%;
   }
 }
 @media (max-width: 991px) {
