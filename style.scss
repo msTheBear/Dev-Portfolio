@@ -6,6 +6,7 @@ html {
     height: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
+    background-color: #242424;
 }
 
 .tab-content {
@@ -408,6 +409,11 @@ a {
 
 /* COLUMN 2 START */
 
+#projectsText {
+    display: none;
+    margin-bottom: 20px;
+}
+
 .column2ProjectThumbnail {
     border: solid 3px #f4911b;
     border-radius: 10%;
@@ -425,7 +431,7 @@ a {
     font-family: "Catamaran";
     font-weight: 500 !important;
     color: white;
-    font-size: 1vw;
+    font-size: 0.8vw;
     line-height: 130%;
     position: absolute;
     top: 50%;
@@ -594,9 +600,27 @@ a {
         margin-bottom: 10px;
     }
 
+    .interestsContainer {
+        margin-bottom: 20px;
+    }
+
+    .rightSide {
+        border-radius: 30px 30px 0 0;
+        width: 80% !important;
+        margin: 0 auto;
+        background-color: #191919 !important;
+    }
+
     .rightSideMainContainer {
         margin-top: 30px !important;
         margin-bottom: 30px !important;
+        width: 50%;
+        // background-color: #191919 !important;
+    }
+
+    #projectsText {
+        display: block;
+        margin-bottom: 20px;
     }
 
     .photoSocial {
@@ -608,7 +632,7 @@ a {
     }
 
     .overlayText {
-        font-size: 1.7vw;
+        font-size: 1.0vw;
     }
 
     .formContainer {
@@ -641,6 +665,23 @@ a {
     #p_mini1,
     #p_mini2 {
         margin-bottom: 20px;
+    }
+
+    .rightSide {
+        border-radius: 30px 30px 0 0;
+        width: 90% !important;
+        margin: 0 auto;
+        background-color: #191919 !important;
+    }
+
+    .rightSideMainContainer {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        width: 80%;
+    }
+
+    .overlayText {
+        font-size: 1.7vw;
     }
 
 }
