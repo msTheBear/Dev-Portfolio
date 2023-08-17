@@ -61,7 +61,7 @@ function projectSwitch3() {
     document.getElementById("p_link").innerHTML = "WEBSITE";
     document.getElementById("p_link").href = "https://www.msthebear.com/filmnuts/";
 
-    document.getElementById("p_description").innerHTML = "Professional video services website created in WordPress, highlightning key information about the company and what they do. Visitors can request a quote directly from this page to streamline their inquiry process, they can also view prices and delivery time. An important aspect for the company was also to include before/after sliders of their color corrected images. ";
+    document.getElementById("p_description").innerHTML = "Professional video services website created in WordPress, highlighting key information about the company and what they do. Visitors can request a quote directly from this page to streamline their inquiry process, they can also view prices and delivery time. An important aspect for the company was also to include before/after sliders of their color corrected images. ";
 
     document.getElementById("p_mini1").src = "./projects/filmnuts/filmnuts_th.webp";
     document.getElementById("p_mini2").src = "./projects/filmnuts/filmnuts_1.webp";
