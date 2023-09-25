@@ -636,6 +636,9 @@ ul li {
   }
 }
 @media (max-width: 991px) {
+  .nav-item {
+    font-size: 0.8rem;
+  }
   #aboutMeText {
     margin: 10px 10px 0 10px;
   }

@@ -68,7 +68,7 @@ function projectBoopGames() {
     githubLink.href = "https://github.com/msTheBear/BoopGames";
     website.innerHTML = "WEBSITE";
     website.href = "https://msthebear.github.io/BoopGames/";
-    description.innerHTML = "Game database website built using RAWG's API. Users can find games, view screenshots, check ratings, read game description and game info (platform availability, release date, genre, developer).";
+    description.innerHTML = `Game database website built using RAWG's API. Users can find games, view screenshots, check ratings, read game description and game info (platform availability, release date, genre, developer).<br>This website is Accessibility friendly.`;
     mainThumbnailLink.href = "https://msthebear.github.io/BoopGames/";
     mainThumbnail.alt = "BoopGames main thumbnail";
     screenshotThumbnail1.src = "./projects/boopgames/boopgames_th.webp";
@@ -98,7 +98,7 @@ function projectPortfolio() {
     githubLink.href = "https://github.com/msTheBear/Portfolio-Website_a";
     website.innerHTML = "WEBSITE";
     website.href = "https://msthebear.github.io/Portfolio-Website_a/";
-    description.innerHTML = "Videography portfolio with showreel built into the TV, showcasing Videographer's projects, equipment and software he uses and clients he works with.";
+    description.innerHTML = `Videography portfolio with showreel built into the TV, showcasing Videographer's projects, equipment and software he uses and clients he works with.<br>This website is Accessibility friendly.`;
     mainThumbnailLink.href = "https://msthebear.github.io/Portfolio-Website_a/";
     mainThumbnail.alt = "Portfolio main thumbnail";
     screenshotThumbnail1.src = "./projects/msthebear/msthebear_th.webp";
@@ -158,7 +158,7 @@ function projectDevPortfolio() {
     githubLink.href = "https://github.com/msTheBear/Dev-Portfolio";
     website.innerHTML = "WEBSITE";
     website.href = "https://msthebear.github.io/Dev-Portfolio/";
-    description.innerHTML = "Portfolio website to showcase web dev projects using a variety of technologies.";
+    description.innerHTML = `Portfolio website to showcase web dev projects using a variety of technologies.<br>This website is Accessibility friendly.`;
     mainThumbnailLink.href = "https://msthebear.github.io/Dev-Portfolio/";
     mainThumbnail.alt = "Web dev portfolio main thumbnail";
     screenshotThumbnail1.src = "./projects/dev portfolio/portfolio_th.webp";
@@ -177,7 +177,7 @@ function projectDevPortfolio() {
     screenshotThumbnail4.alt = "Web dev portfolio thumbnail 4";
     screenshotThumbnailModal4.src = "./projects/dev portfolio/screenshot_3.webp";
     screenshotThumbnailModal4.alt = "Web dev portfolio thumbnail 4";
-    technologyUsed.innerHTML = "Technologies used: HTML5, CSS3, JavaScript, Bootstrap";
+    technologyUsed.innerHTML = "Technologies used: HTML5, CSS3, JavaScript, Bootstrap, Sass";
 }
 
 function projectEtchASketch() {
