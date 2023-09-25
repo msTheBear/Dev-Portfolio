@@ -406,7 +406,7 @@ a {
 }
 
 .buttonForm {
-  width: 25% !important;
+  width: 100px !important;
   margin: 0 auto;
   font-weight: 1000 !important;
   letter-spacing: 1px;
