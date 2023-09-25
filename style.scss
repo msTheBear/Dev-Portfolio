@@ -2,11 +2,32 @@ body,
 html {
     font-family: "Catamaran";
     font-weight: 500 !important;
+    font-size: 20px !important;
     letter-spacing: 1px;
     height: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
     background-color: #242424;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+figure {
+    margin: 0 !important;
+}
+
+.sr-only {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
 }
 
 .tab-content {
@@ -49,6 +70,11 @@ p {
 
 /* MENU TAB START */
 
+#msTheBearLogo,
+.nav-item {
+    margin: 10px;
+}
+
 #msTheBearLogo {
     width: 150px;
     border-radius: 5px;
@@ -79,30 +105,33 @@ p {
     initial-value: 2turn;
 }
 
-.menu {
-    margin-top: 30px;
-    margin-bottom: 20px;
+.nav-tabs {
+    border: none !important;
 }
 
-.menuItems {
-    font-weight: 1000;
-}
-
-.nav-pills {
+.nav-tabs {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-link {
+    color: orange !important;
+    border: none !important;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .show>.nav-link {
     background-color: transparent !important;
     color: #33b291 !important;
+    border: none !important;
 }
+
 
 .nav-link:hover {
     color: #33b291 !important;
+    border: none !important;
 }
 
 /* MENU TAB END */
@@ -123,20 +152,13 @@ h4 {
 }
 
 #hiMyNameIs {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     text-justify: inter-word;
     text-shadow: 1.5px 1.5px 2px #33b291;
 }
 
 #aboutMeText {
-    margin: 20px;
-    font-size: 1rem;
-    text-align: center;
-    letter-spacing: 0.5px;
-}
-
-#p_description {
-    font-weight: 500;
+    margin: 20px 20px 0 20px;
     text-align: center;
     letter-spacing: 0.5px;
 }
@@ -150,6 +172,7 @@ h4 {
 }
 
 .coursesContainer {
+    color: orange;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -177,6 +200,7 @@ h4 {
 }
 
 .technologiesContainer {
+    color: orange;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -189,6 +213,7 @@ h4 {
 }
 
 .interestsContainer {
+    color: orange;
     display: flex;
     align-items: center;
     background-color: #242424;
@@ -204,7 +229,6 @@ h4,
 h5,
 h6,
 .projectNameText {
-    font-size: 1.1rem;
     font-weight: 1000;
     letter-spacing: 1px;
     color: #f4911b;
@@ -244,8 +268,19 @@ a {
     text-decoration: none !important;
 }
 
-.projectDescription {
+.projectDescriptionContainer {
     margin: 25px 0 25px 0;
+}
+
+#p_description {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.buttonsNoBackground {
+    background: none;
+    border: none;
 }
 
 .projectThumbnailsContainer {
@@ -293,6 +328,14 @@ a {
     background-color: transparent !important;
 }
 
+.modal-header {
+    width: 100%;
+}
+
+.modal-content {
+    align-items: center;
+}
+
 .smallScreenshots {
     width: 100%;
     border-radius: 0 0 20px 20px;
@@ -304,6 +347,7 @@ a {
 /* CONTACT ME START */
 
 .reachOutContainer {
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -313,8 +357,13 @@ a {
     background-color: #191919;
 }
 
+#reachOutToMe {
+    color: orange;
+}
+
 #mailboxIcon {
     transition: all 500ms ease;
+    margin-bottom: 15px;
 }
 
 .formContainer {
@@ -336,8 +385,17 @@ a {
     margin-bottom: 20px;
 }
 
+::placeholder {
+    color: rgba(255, 255, 255, 0.808) !important;
+}
+
+::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.808) !important;
+}
+
 
 #textArea {
+    padding-top: 15px;
     width: 100%;
 }
 
@@ -345,7 +403,7 @@ a {
     border-color: inherit;
     -webkit-box-shadow: none;
     box-shadow: none;
-    outline: solid 2px #f4911b;
+    outline: solid 4px #f4911b;
 }
 
 .inputBox {
@@ -365,7 +423,7 @@ a {
     border-color: inherit !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    outline: solid 2px #f4911b !important;
+    outline: solid 4px #f4911b !important;
 }
 
 .buttonForm {
@@ -379,6 +437,10 @@ a {
 
 .buttonForm:hover {
     background-color: #33b291 !important;
+}
+
+ul li {
+    display: inline-block;
 }
 
 .socialContainer {
@@ -407,9 +469,10 @@ a {
 /* CONTACT ME END */
 
 
-/* COLUMN 2 START */
+/* RIGHT SIDE START */
 
 #projectsText {
+    color: orange;
     display: none;
     margin-bottom: 20px;
 }
@@ -431,7 +494,7 @@ a {
     font-family: "Catamaran";
     font-weight: 500 !important;
     color: white;
-    font-size: 0.8vw;
+    font-size: 1vw;
     line-height: 130%;
     position: absolute;
     top: 50%;
@@ -447,25 +510,22 @@ a {
     text-align: center;
 }
 
-.polygon {
-    transition: transform 250ms ease-in-out;
-    max-width: 150px;
-}
-
-.projectContainer:hover .polygon {
-    transition: transform 250ms ease-in-out;
-    transform: perspective(150px) rotateX(0deg) rotateY(90deg);
-    -webkit-transform: perspective(150px) rotateX(0deg) rotateY(90deg);
-}
-
 .centered {
+    width: 70%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 15%;
+    bottom: 15%;
+    right: 15%;
+    left: 15%;
+    transition: transform 250ms ease-in-out;
 }
 
-/* COLUMN 2 END */
+.centered:hover {
+    transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);
+}
+
+/* RIGHT SIDE END */
 
 
 /* THANK YOU PAGE START */
@@ -552,10 +612,6 @@ a {
         letter-spacing: 1px;
     }
 
-    .technologiesContainer {
-        padding: 60px;
-    }
-
     .spaceTextIcons {
         margin-bottom: 40px;
     }
@@ -614,8 +670,7 @@ a {
     .rightSideMainContainer {
         margin-top: 30px !important;
         margin-bottom: 30px !important;
-        width: 50%;
-        // background-color: #191919 !important;
+        // width: 50%;
     }
 
     #projectsText {
@@ -632,7 +687,7 @@ a {
     }
 
     .overlayText {
-        font-size: 1.0vw;
+        font-size: 1.5vw;
     }
 
     .formContainer {
@@ -646,7 +701,7 @@ a {
 @media (max-width: 991px) {
 
     #aboutMeText {
-        margin: 10px;
+        margin: 10px 10px 0 10px;
     }
 
     .leftSideMainContainer {
@@ -654,17 +709,13 @@ a {
         margin: 0 auto;
     }
 
-    .navbar-brand {
-        width: 100%;
+    #myTab li:first-child {
+        margin-top: 20px;
+        width: 100% !important;
     }
 
     #msTheBearLogo {
-        width: 200px;
-    }
-
-    #p_mini1,
-    #p_mini2 {
-        margin-bottom: 20px;
+        width: 180px;
     }
 
     .rightSide {
@@ -681,7 +732,7 @@ a {
     }
 
     .overlayText {
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
 
 }
