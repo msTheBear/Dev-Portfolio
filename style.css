@@ -177,12 +177,10 @@ h4 {
 }
 
 .technologiesIcons {
-  width: 140px;
   max-width: 200px;
 }
 
 .coursesIcons {
-  width: 150px;
   transition: all 500ms ease;
 }
 
@@ -646,12 +644,18 @@ ul li {
     width: 90%;
     margin: 0 auto;
   }
-  #myTab li:first-child {
+  #logoFullWidthMobile {
     margin-top: 20px;
     width: 100% !important;
   }
   #msTheBearLogo {
     width: 180px;
+  }
+  .coursesIconsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
   .rightSide {
     border-radius: 30px 30px 0 0;
