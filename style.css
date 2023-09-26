@@ -134,8 +134,10 @@ h4 {
 }
 
 #michalPhoto {
-  transition: all 500ms ease;
+  padding: 10px;
+  border-radius: 20px;
   margin-bottom: 10px;
+  transition: all 500ms ease;
 }
 
 #hiMyNameIs {
@@ -563,9 +565,6 @@ ul li {
   .tab-content {
     min-height: 1080px;
   }
-  .photoAboutMeContainer {
-    padding: 60px;
-  }
   #aboutMeText {
     letter-spacing: 1px;
   }
@@ -650,6 +649,9 @@ ul li {
   }
   #msTheBearLogo {
     width: 180px;
+  }
+  #michalPhoto {
+    width: 250px;
   }
   .coursesIconsContainer {
     display: flex;
