@@ -180,66 +180,6 @@ function projectDevPortfolio() {
     technologyUsed.innerHTML = "Technologies used: HTML5, CSS3, JavaScript, Bootstrap, Sass";
 }
 
-function projectEtchASketch() {
-    bootstrap.Tab.getInstance(triggerElProjects).show();
-    mainThumbnail.focus();
-    mainThumbnail.src = "./projects/etchasketch/main.webp";
-    projectTitle.innerHTML = "ETCH A SKETCH";
-    githubLink.href = "https://github.com/msTheBear/Etch-A-Sketch";
-    website.innerHTML = "WEBSITE";
-    website.href = "https://msthebear.github.io/Etch-A-Sketch/";
-    description.innerHTML = "Classic drawing toy transformed into a virtual version. Users can change the board size and pick colors.";
-    mainThumbnailLink.href = "https://msthebear.github.io/Etch-A-Sketch/";
-    mainThumbnail.alt = "Etch A Sketch main thumbnail";
-    screenshotThumbnail1.src = "./projects/etchasketch/etchasketch_th.webp";
-    screenshotThumbnail1.alt = "Etch A Sketch thumbnail 1";
-    screenshotThumbnailModal1.src = "./projects/etchasketch/etchasketch_th.webp";
-    screenshotThumbnailModal1.alt = "Etch A Sketch thumbnail 1";
-    screenshotThumbnail2.src = "./projects/etchasketch/screenshot_1.webp";
-    screenshotThumbnail2.alt = "Etch A Sketch thumbnail 2";
-    screenshotThumbnailModal2.src = "./projects/etchasketch/screenshot_1.webp";
-    screenshotThumbnailModal2.alt = "Etch A Sketch thumbnail 2";
-    screenshotThumbnail3.src = "./projects/etchasketch/screenshot_2.webp";
-    screenshotThumbnail3.alt = "Etch A Sketch thumbnail 3";
-    screenshotThumbnailModal3.src = "./projects/etchasketch/screenshot_2.webp";
-    screenshotThumbnailModal3.alt = "Etch A Sketch thumbnail 3";
-    screenshotThumbnail4.src = "./projects/etchasketch/screenshot_3.webp";
-    screenshotThumbnail4.alt = "Etch A Sketch thumbnail 4";
-    screenshotThumbnailModal4.src = "./projects/etchasketch/screenshot_3.webp";
-    screenshotThumbnailModal4.alt = "Etch A Sketch thumbnail 4";
-    technologyUsed.innerHTML = "Technologies used: HTML5, CSS3, JavaScript";
-}
-
-function projectRockPaper() {
-    bootstrap.Tab.getInstance(triggerElProjects).show();
-    mainThumbnail.focus();
-    mainThumbnail.src = "./projects/rockpaperscissors/main.webp";
-    projectTitle.innerHTML = "ROCK PAPER SCISSORS";
-    githubLink.href = "https://github.com/msTheBear/Rock-Paper-Scissors";
-    website.innerHTML = "WEBSITE";
-    website.href = "https://msthebear.github.io/Rock-Paper-Scissors/";
-    description.innerHTML = "Classic hand game usually played between two people. Visitors can now take their chances and play with a computer.";
-    mainThumbnailLink.href = "https://msthebear.github.io/Rock-Paper-Scissors/";
-    mainThumbnail.alt = "Rock Paper Scissors main thumbnail";
-    screenshotThumbnail1.src = "./projects/rockpaperscissors/rockpaperscissors_th.webp";
-    screenshotThumbnail1.alt = "Rock Paper Scissors thumbnail 1";
-    screenshotThumbnailModal1.src = "./projects/rockpaperscissors/rockpaperscissors_th.webp";
-    screenshotThumbnailModal1.alt = "Rock Paper Scissors thumbnail 1";
-    screenshotThumbnail2.src = "./projects/rockpaperscissors/screenshot_1.webp";
-    screenshotThumbnail2.alt = "Rock Paper Scissors thumbnail 2";
-    screenshotThumbnailModal2.src = "./projects/rockpaperscissors/screenshot_1.webp";
-    screenshotThumbnailModal2.alt = "Rock Paper Scissors thumbnail 2";
-    screenshotThumbnail3.src = "./projects/rockpaperscissors/screenshot_2.webp";
-    screenshotThumbnail3.alt = "Rock Paper Scissors thumbnail 3";
-    screenshotThumbnailModal3.src = "./projects/rockpaperscissors/screenshot_2.webp";
-    screenshotThumbnailModal3.alt = "Rock Paper Scissors thumbnail 3";
-    screenshotThumbnail4.src = "./projects/rockpaperscissors/screenshot_3.webp";
-    screenshotThumbnail4.alt = "Rock Paper Scissors thumbnail 4";
-    screenshotThumbnailModal4.src = "./projects/rockpaperscissors/screenshot_3.webp";
-    screenshotThumbnailModal4.alt = "Rock Paper Scissors thumbnail 4";
-    technologyUsed.innerHTML = "Technologies used: HTML5, CSS3, JavaScript";
-}
-
 function projectPortfolioOld() {
     bootstrap.Tab.getInstance(triggerElProjects).show();
     mainThumbnail.focus();
@@ -308,7 +248,7 @@ function projectFoxIt() {
     githubLink.href = "";
     website.innerHTML = "WEBSITE";
     website.href = "https://play.unity.com/mg/other/build-fox-it";
-    description.innerHTML = 'Simple game created in Unity, based on a very popular game called "Flappy Bird".';
+    description.innerHTML = `I'm interested in making games and this is my passion project created in Unity, based on a very popular game called "Flappy Bird". I'm currently learning Godot engine.`;
     mainThumbnailLink.href = "https://play.unity.com/mg/other/build-fox-it";
     mainThumbnail.alt = "Fox It main thumbnail";
     screenshotThumbnail1.src = "./projects/foxit/foxit_th.webp";
