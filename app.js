@@ -95,11 +95,11 @@ function projectPortfolio() {
     mainThumbnail.focus();
     mainThumbnail.src = "./projects/msthebear/main.webp";
     projectTitle.innerHTML = "MICHAL SZYMCZAK PORTFOLIO";
-    githubLink.href = "https://github.com/msTheBear/Portfolio-Website_a";
+    githubLink.href = "https://github.com/msTheBear/videography-portfolio";
     website.innerHTML = "WEBSITE";
-    website.href = "https://msthebear.github.io/Portfolio-Website_a/";
+    website.href = "https://msthebear.github.io/videography-portfolio/";
     description.innerHTML = `Videography portfolio with showreel built into the TV, showcasing Videographer's projects, equipment and software he uses and clients he works with.<br>This website is Accessibility friendly.`;
-    mainThumbnailLink.href = "https://msthebear.github.io/Portfolio-Website_a/";
+    mainThumbnailLink.href = "https://msthebear.github.io/videography-portfolio/";
     mainThumbnail.alt = "Portfolio main thumbnail";
     screenshotThumbnail1.src = "./projects/msthebear/msthebear_th.webp";
     screenshotThumbnail1.alt = "Portfolio thumbnail 1";
